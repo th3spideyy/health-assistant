@@ -1,0 +1,88 @@
+{
+  "users": {
+    "b63e273c1e196dfcd8efe453743a9f9f": {
+      "id": "b63e273c1e196dfcd8efe453743a9f9f",
+      "username": "admin",
+      "email": "admin@healthcare.local",
+      "full_name": "System Administrator",
+      "role": "admin",
+      "created_at": "2026-02-20T16:21:15.668279",
+      "last_login": "2026-09-27T19:28:58.740686",
+      "is_active": true,
+      "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+    },
+    "a5ca932592ac59d045fe7627d6af3fa9": {
+      "id": "a5ca932592ac59d045fe7627d6af3fa9",
+      "username": "testuser",
+      "email": "test@example.com",
+      "full_name": "Test User",
+      "role": "user",
+      "created_at": "2026-09-28T00:32:10.160774",
+      "last_login": null,
+      "is_active": true,
+      "password_hash": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae"
+    },
+    "a0e1e262db9c8f752928ed36ea223cb7": {
+      "id": "a0e1e262db9c8f752928ed36ea223cb7",
+      "username": "newdoctor",
+      "email": "doctor@hospital.com",
+      "full_name": "Dr. John Doe",
+      "role": "user",
+      "created_at": "2026-09-28T00:34:18.824995",
+      "last_login": null,
+      "is_active": true,
+      "password_hash": "996d349222cae7247a089024223c929a56d289484ae61c47655c7a4af49fa600"
+    }
+  },
+  "sessions": {
+    "391a08dc0a82ba043a38b485f283ac81dfc21d50038d38b454b5056ff3ef7f6c": {
+      "session_id": "391a08dc0a82ba043a38b485f283ac81dfc21d50038d38b454b5056ff3ef7f6c",
+      "user_id": "b63e273c1e196dfcd8efe453743a9f9f",
+      "created_at": "2026-09-28T00:30:24.138665",
+      "expires_at": "2026-09-29T00:30:24.138665",
+      "is_active": true
+    },
+    "f0684bceab7a88fa0de5dc555f88cb05df8b8d6e49868548be64ab460b5e1b08": {
+      "session_id": "f0684bceab7a88fa0de5dc555f88cb05df8b8d6e49868548be64ab460b5e1b08",
+      "user_id": "b63e273c1e196dfcd8efe453743a9f9f",
+      "created_at": "2026-09-28T00:31:21.563272",
+      "expires_at": "2026-09-29T00:31:21.563272",
+      "is_active": true
+    },
+    "76e3eff947b3ab68776d0bfbdf5e9bef5bb7bf7ee82fbbf1eb8a1242e8c58b1e": {
+      "session_id": "76e3eff947b3ab68776d0bfbdf5e9bef5bb7bf7ee82fbbf1eb8a1242e8c58b1e",
+      "user_id": "a5ca932592ac59d045fe7627d6af3fa9",
+      "created_at": "2026-09-28T00:32:10.161187",
+      "expires_at": "2026-09-29T00:32:10.161187",
+      "is_active": true
+    },
+    "cad9e6bc522ed46e00b31fe824b23d0b4989e5fde75d740de1471a8898266672": {
+      "session_id": "cad9e6bc522ed46e00b31fe824b23d0b4989e5fde75d740de1471a8898266672",
+      "user_id": "b63e273c1e196dfcd8efe453743a9f9f",
+      "created_at": "2026-09-28T00:32:10.203697",
+      "expires_at": "2026-09-29T00:32:10.203697",
+      "is_active": true
+    },
+    "320ed317097ab16aa1588a0848aa0f31661b78a4a62aad279f4af151617d7a22": {
+      "session_id": "320ed317097ab16aa1588a0848aa0f31661b78a4a62aad279f4af151617d7a22",
+      "user_id": "b63e273c1e196dfcd8efe453743a9f9f",
+      "created_at": "2026-09-28T00:34:18.696827",
+      "expires_at": "2026-09-29T00:34:18.696827",
+      "is_active": true
+    },
+    "d54fb1fb952fe0411aada2ce56c577424a08841447261e15e2fe68ad58a361c5": {
+      "session_id": "d54fb1fb952fe0411aada2ce56c577424a08841447261e15e2fe68ad58a361c5",
+      "user_id": "a0e1e262db9c8f752928ed36ea223cb7",
+      "created_at": "2026-09-28T00:34:18.825324",
+      "expires_at": "2026-09-29T00:34:18.825324",
+      "is_active": true
+    },
+    "3de2caf83c9fd2c1a556d68b27aadc60db97b4cd5b02cc8ef8863e72ceea720b": {
+      "session_id": "3de2caf83c9fd2c1a556d68b27aadc60db97b4cd5b02cc8ef8863e72ceea720b",
+      "user_id": "b63e273c1e196dfcd8efe453743a9f9f",
+      "created_at": "2026-09-27T19:28:58.740971",
+      "expires_at": "2026-09-28T19:28:58.740971",
+      "is_active": true
+    }
+  }
+}

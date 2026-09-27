@@ -1,0 +1,67 @@
+{
+  "goal": "Healthcare Task Execution",
+  "total_duration": 165,
+  "tasks": [
+    {
+      "id": "3a8abb3a-02f4-44ac-94cb-eac7925c665f",
+      "title": "Initial Patient Assessment",
+      "description": "Comprehensive evaluation of patient's current condition",
+      "priority": "high",
+      "status": "pending",
+      "estimated_duration": 45,
+      "required_resources": [
+        "dr_jones",
+        "room_101"
+      ],
+      "dependencies": [],
+      "scheduled_time": "2026-02-19T16:15:35.450242"
+    },
+    {
+      "id": "0b263e07-adba-4cb4-bf5d-7aa6cb720884",
+      "title": "Diagnostic Tests",
+      "description": "Order and conduct necessary diagnostic tests",
+      "priority": "high",
+      "status": "pending",
+      "estimated_duration": 60,
+      "required_resources": [
+        "blood_lab",
+        "xray_machine"
+      ],
+      "dependencies": [
+        "3a8abb3a-02f4-44ac-94cb-eac7925c665f"
+      ],
+      "scheduled_time": "2026-02-19T17:00:35.450242"
+    },
+    {
+      "id": "72e7b4e8-1e5c-4e49-8f6d-1a2497b6a312",
+      "title": "Treatment Plan Development",
+      "description": "Create comprehensive treatment plan based on all findings",
+      "priority": "high",
+      "status": "pending",
+      "estimated_duration": 40,
+      "required_resources": [
+        "dr_smith",
+        "dr_jones"
+      ],
+      "dependencies": [
+        "bc62f35f-c6e8-48e5-9279-f2c38cf61c5e"
+      ],
+      "scheduled_time": "2026-02-19T16:45:35.450242"
+    },
+    {
+      "id": "bc62f35f-c6e8-48e5-9279-f2c38cf61c5e",
+      "title": "Specialist Consultation",
+      "description": "Consult with appropriate specialists based on diagnosis",
+      "priority": "medium",
+      "status": "pending",
+      "estimated_duration": 30,
+      "required_resources": [
+        "dr_neurologist"
+      ],
+      "dependencies": [
+        "0b263e07-adba-4cb4-bf5d-7aa6cb720884"
+      ],
+      "scheduled_time": "2026-02-19T18:30:35.450242"
+    }
+  ]
+}

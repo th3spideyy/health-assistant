@@ -1,0 +1,5 @@
+[
+  {"id":"dr_smith","name":"Dr. Smith","specialization":"Cardiologist","email":"dr.smith@hospital.local","phone":"","available":true},
+  {"id":"dr_jones","name":"Dr. Jones","specialization":"General Practitioner","email":"dr.jones@hospital.local","phone":"","available":true},
+  {"id":"dr_wilson","name":"Dr. Wilson","specialization":"Neurologist","email":"dr.wilson@hospital.local","phone":"","available":true}
+]

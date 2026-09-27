@@ -1,0 +1,52 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.streamlit/secrets.toml
+*.log
+.pytest_cache/
+.mypy_cache/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Local databases / runtime files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated runtime data
+data/sessions.json
